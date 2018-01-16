@@ -5,7 +5,6 @@ def run_Guess_My_Number():
     n = randint(0, 1000)
     print(n)
     t = 0
-    score = 0
     print("I have a secret number n.")
     print("You can Ask, Guess, or Quit!")
 
@@ -28,11 +27,7 @@ def run_Guess_My_Number():
                 break
 
 def isPrimeUnder1000(m):
-    if m >= 1000 or m <= 1: return False
-    for x in range(2, m):
-        if m % x == 0:
-            return False
-    return True
+    return m > 1 and m < 1000 and all(m % i for i in range(2, m))
 
 def is_n_minus_k_divisible_by_m(n, k, m):
     if not isPrimeUnder1000(m):
