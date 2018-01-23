@@ -1,5 +1,12 @@
-'''Farmer_Fox.py
+'''jiashz_Farmer_Fox_etc.py
+by Josh Zhang
+
+Assignment 2, in CSE 415, Winter 2018.
+
+This file contains my problem formulation for the problem of
+the Farmer, Fox, Chicken, and Grain.
 '''
+
 #<METADATA>
 QUIET_VERSION = "0.2"
 PROBLEM_NAME = "Farmer, Fox, Chicken, and Grain"
