@@ -77,7 +77,7 @@ def IterativeDFS(initial_state):
 #         Insert all members of L at the front of OPEN.
     for s2 in L:
       for i in range(len(OPEN)):
-        if (s2 == OPEN[i]):
+        if s2 == OPEN[i]:
           del OPEN[i]; break
 
     OPEN = L + OPEN
